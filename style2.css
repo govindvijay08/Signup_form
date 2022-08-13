@@ -1,0 +1,75 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: purple;
+    height: 100%;
+    width: 100%;
+}
+.sign-up-form{
+    width: 300px;
+    box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+    background: #fff;
+    padding: 20px;
+    margin: 8% auto 0;
+    border-radius: 20px;
+    text-align: center;
+}
+.sign-up-form h1{
+    margin-bottom: 30px;
+}
+.input-box{
+    border-radius: 20px;
+    padding: 6px;
+    margin: 6px 0;
+    width: 100%;
+    border: 1px solid purple;   
+}
+button{
+    color: purple;
+    width: 100%;
+    padding: 6px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 6px ;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+button:hover{
+    color: white;
+    background-color: purple;
+}
+hr{
+    margin-top: 20px;
+    width: 80%;
+}
+.or{
+    background: #fff;
+    width: 30px;
+    margin: -19px auto 10px;
+}
+img{
+    width: 70px;
+    margin-top: -50px;
+    border-radius: 15px;
+}
+.input-box:focus{
+    border-color: purple;
+    box-shadow: 0 0 10px 0 purple;
+}
+.sign-up{
+    width: 10%;
+}
+.sign-up img{
+    width: 30px;
+    height: 30px;
+    margin-bottom: -10px;
+    margin-left: -6px;
+}
+a{
+    color: blue;
+}
+a:hover{
+    color: purple;
+}
